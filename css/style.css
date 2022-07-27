@@ -48,20 +48,24 @@ body {
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     border-radius: 100px;
-
 }
 
 .hour-hand {
     background-color: orchid;
+    width: calc(100% - 19rem);
+    left: 14%;
 }
 
 .second-hand {
     background-color: orange;
+    width: calc(100% - 19rem);
+    left: 14%;
 }
 
 .min-hand {
-
     background-color: tomato;
+    width: calc(100% - 19rem);
+    left: 14%;
 }
 
 .pin {
